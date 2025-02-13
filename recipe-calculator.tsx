@@ -4,10 +4,10 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 
 const RecipeCalculator = () => {
-  const [dryMaterial, setDryMaterial] = useState<number>(100);
-  const [water, setWater] = useState<number>(40);
-  const [portionSize, setPortionSize] = useState<number>(40);
-  const [stainPercentage, setStainPercentage] = useState<number>(7);
+  const [dryMaterial, setDryMaterial] = useState(100);
+  const [water, setWater] = useState(40);
+  const [portionSize, setPortionSize] = useState(40);
+  const [stainPercentage, setStainPercentage] = useState(7);
 
   // Calculate total mixture
   const totalMixture = dryMaterial + water;
